@@ -71,6 +71,8 @@ DBIx::Class::Log4perl - Logging for DBIx::Class via Log::Log4perl
 
 =head2 query_start
 
+=head2 logging
+
 =head1 AUTHOR
 
 Renee Baecker, C<< <module at renee-baecker.de> >>

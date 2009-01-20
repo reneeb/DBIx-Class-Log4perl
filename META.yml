@@ -1,0 +1,31 @@
+---
+name: DBIx::Class::Log4perl
+version: 0.01
+author:
+  - 'Renee Baecker <module@renee-baecker.de>'
+abstract: Logging for DBIx::Class via Log::Log4perl
+license: perl
+requires:
+  Carp: 0
+  DBIx::Class: 0.07
+  DBD::SQLite: 1.13
+  Exporter: 0
+  File::Spec: 3.12
+  Log::Log4perl: 1.12
+build_requires:
+  Carp: 0
+  Test::CheckManifest: 1
+  Test::More: 0
+  FindBin: 0
+  File::Spec: 0
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
+provides:
+  DBIx::Class::Log4perl:
+    file: lib/DBIx/Class/Log4perl.pm
+    version: 0.01
+resources:
+  license: http://dev.perl.org/licenses/
+

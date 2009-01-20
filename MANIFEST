@@ -2,16 +2,21 @@ Changes
 MANIFEST
 Makefile.PL
 README
+META.yml
 
 lib/DBIx/Class/Log4perl.pm
 
 t/00_load.t
 t/01_no_file_given.t
+t/02_test_logging.t
+t/95_manifest.t
+t/96_delete_log.t
 t/97_boilerplate.t
 t/98_pod.t
 t/99_pod_coverage.t
 
 t/test.conf
+t/TestDB
 
 t/lib/ReneeB/Schema.pm
 t/lib/ReneeB/Schema/Test.pm
