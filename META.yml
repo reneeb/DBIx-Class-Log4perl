@@ -28,4 +28,4 @@ provides:
     version: 0.01
 resources:
   license: http://dev.perl.org/licenses/
-
+  repository: git://github.com/reneeb/DBIx-Class-Log4perl.git
